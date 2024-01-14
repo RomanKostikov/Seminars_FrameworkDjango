@@ -1,0 +1,36 @@
+[INFO    :   django.utils.autoreload] - 2024-01-13 19:31:20,611 : run_with_reloader @0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-13 19:32:00,729 : log_message @0212: "GET / HTTP/1.1" 200 21
+[INFO    :             django.server] - 2024-01-13 19:32:10,458 : handle_error @0081: - Broken pipe from ('192.168.0.102', 55946)
+[INFO    :               app_1.views] - 2024-01-13 19:32:13,234 : random_view @0032: Dice side: 5
+[INFO    :               app_1.views] - 2024-01-13 19:32:13,235 : random_view @0033: Random number from 0 to 100: 0
+[INFO    :             django.server] - 2024-01-13 19:32:13,235 : log_message @0212: "GET /r/ HTTP/1.1" 200 87
+[INFO    :   django.utils.autoreload] - 2024-01-13 19:35:40,130 : trigger_reload @0266: C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango\seminars\settings.py changed, reloading.
+INFO 2024-01-13 19:35:40,669 autoreload 27548 10636 Watching for file changes with StatReloader
+INFO 2024-01-13 19:35:49,580 views 27548 20888 Dice side: 5
+INFO 2024-01-13 19:35:49,580 views 27548 20888 Random number from 0 to 100: 6
+INFO 2024-01-13 19:35:49,581 basehttp 27548 20888 "GET /r/ HTTP/1.1" 200 87
+INFO 2024-01-13 19:38:20,407 autoreload 27548 10636 C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango\seminars\settings.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-13 19:38:20,949 : run_with_reloader @0668: Watching for file changes with StatReloader
+[INFO    :               app_1.views] - 2024-01-13 19:38:25,815 : random_view @0032: Dice side: 4
+[INFO    :               app_1.views] - 2024-01-13 19:38:25,816 : random_view @0033: Random number from 0 to 100: 81
+[INFO    :             django.server] - 2024-01-13 19:38:25,817 : log_message @0212: "GET /r/ HTTP/1.1" 200 88
+[INFO    :   django.utils.autoreload] - 2024-01-13 19:40:56,480 : trigger_reload @0266: C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango\app_1\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-13 19:40:57,167 : run_with_reloader @0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-13 19:41:12,852 : log_message @0212: "GET / HTTP/1.1" 200 21
+[INFO    :               app_1.views] - 2024-01-13 19:41:28,730 : random_view @0039: Dice side: 3
+[INFO    :               app_1.views] - 2024-01-13 19:41:28,730 : random_view @0040: Random number from 0 to 100: 2
+[INFO    :             django.server] - 2024-01-13 19:41:28,731 : log_message @0212: "GET /r/ HTTP/1.1" 200 87
+[INFO    :               app_1.views] - 2024-01-13 19:44:37,621 : random_view @0039: Dice side: 5
+[INFO    :               app_1.views] - 2024-01-13 19:44:37,622 : random_view @0040: Random number from 0 to 100: 60
+[INFO    :             django.server] - 2024-01-13 19:44:37,623 : log_message @0212: "GET /r/ HTTP/1.1" 200 88
+[INFO    :             django.server] - 2024-01-13 19:44:51,898 : handle_error @0081: - Broken pipe from ('192.168.0.102', 55966)
+[INFO    :   django.utils.autoreload] - 2024-01-13 20:46:44,135 : trigger_reload @0266: C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango\seminars\settings.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-13 20:46:44,797 : run_with_reloader @0668: Watching for file changes with StatReloader
+[INFO    :               app_1.views] - 2024-01-13 20:47:10,883 : random_view @0039: Dice side: 6
+[INFO    :               app_1.views] - 2024-01-13 20:47:10,884 : random_view @0040: Random number from 0 to 100: 25
+[INFO    :             django.server] - 2024-01-13 20:47:10,885 : log_message @0212: "GET /r/ HTTP/1.1" 200 88
+[INFO    :   django.utils.autoreload] - 2024-01-13 20:52:27,910 : trigger_reload @0266: C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango\app_1\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-13 20:52:28,524 : run_with_reloader @0668: Watching for file changes with StatReloader
+[INFO    :               app_1.views] - 2024-01-13 20:53:22,686 : random_view @0044: Dice side: 3
+[INFO    :               app_1.views] - 2024-01-13 20:53:22,687 : random_view @0045: Random number from 0 to 100: 29
+[INFO    :             django.server] - 2024-01-13 20:53:22,688 : log_message @0212: "GET /r/ HTTP/1.1" 200 88
