@@ -34,3 +34,46 @@ INFO 2024-01-13 19:38:20,407 autoreload 27548 10636 C:\Users\roman\Desktop\Work 
 [INFO    :               app_1.views] - 2024-01-13 20:53:22,686 : random_view @0044: Dice side: 3
 [INFO    :               app_1.views] - 2024-01-13 20:53:22,687 : random_view @0045: Random number from 0 to 100: 29
 [INFO    :             django.server] - 2024-01-13 20:53:22,688 : log_message @0212: "GET /r/ HTTP/1.1" 200 88
+[INFO    :   django.utils.autoreload] - 2024-01-16 14:23:31,726 : run_with_reloader @0668: Watching for file changes with StatReloader
+[INFO    :               app_1.views] - 2024-01-16 14:23:34,687 : index @0038: index get request
+[INFO    :             django.server] - 2024-01-16 14:23:34,689 : log_message @0212: "GET / HTTP/1.1" 200 13
+[WARNING :            django.request] - 2024-01-16 14:23:35,025 : log_response @0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-16 14:23:35,025 : log_message @0212: "GET /favicon.ico HTTP/1.1" 404 3107
+[INFO    :               app_1.views] - 2024-01-16 14:23:55,350 : coin_flip @0049: Coin flipped at side: Tails
+[INFO    :             django.server] - 2024-01-16 14:23:55,351 : log_message @0212: "GET /coin/ HTTP/1.1" 200 23
+[INFO    :               app_1.views] - 2024-01-16 14:23:59,287 : coin_flip @0049: Coin flipped at side: Tails
+[INFO    :             django.server] - 2024-01-16 14:23:59,288 : log_message @0212: "GET /coin/ HTTP/1.1" 200 23
+[INFO    :               app_1.views] - 2024-01-16 14:24:00,070 : coin_flip @0049: Coin flipped at side: Tails
+[INFO    :             django.server] - 2024-01-16 14:24:00,071 : log_message @0212: "GET /coin/ HTTP/1.1" 200 23
+[INFO    :               app_1.views] - 2024-01-16 14:24:04,015 : coin_flip @0049: Coin flipped at side: Tails
+[INFO    :             django.server] - 2024-01-16 14:24:04,016 : log_message @0212: "GET /coin/ HTTP/1.1" 200 23
+[INFO    :               app_1.views] - 2024-01-16 14:24:04,802 : coin_flip @0049: Coin flipped at side: Tails
+[INFO    :             django.server] - 2024-01-16 14:24:04,803 : log_message @0212: "GET /coin/ HTTP/1.1" 200 23
+[INFO    :               app_1.views] - 2024-01-16 14:24:05,498 : coin_flip @0049: Coin flipped at side: Tails
+[INFO    :             django.server] - 2024-01-16 14:24:05,499 : log_message @0212: "GET /coin/ HTTP/1.1" 200 23
+[INFO    :               app_1.views] - 2024-01-16 14:24:06,412 : coin_flip @0049: Coin flipped at side: Tails
+[INFO    :             django.server] - 2024-01-16 14:24:06,413 : log_message @0212: "GET /coin/ HTTP/1.1" 200 23
+[INFO    :               app_1.views] - 2024-01-16 14:24:10,660 : coin_flip @0049: Coin flipped at side: Tails
+[INFO    :             django.server] - 2024-01-16 14:24:10,661 : log_message @0212: "GET /coin/ HTTP/1.1" 200 23
+[INFO    :               app_1.views] - 2024-01-16 14:24:11,353 : coin_flip @0049: Coin flipped at side: Tails
+[INFO    :             django.server] - 2024-01-16 14:24:11,355 : log_message @0212: "GET /coin/ HTTP/1.1" 200 23
+[INFO    :               app_1.views] - 2024-01-16 14:24:12,216 : coin_flip @0049: Coin flipped at side: Heads
+[INFO    :             django.server] - 2024-01-16 14:24:12,216 : log_message @0212: "GET /coin/ HTTP/1.1" 200 23
+[INFO    :   django.utils.autoreload] - 2024-01-16 14:43:42,538 : run_with_reloader @0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 14:43:54,511 : log_message @0212: "GET /c/ HTTP/1.1" 200 429
+[INFO    :   django.utils.autoreload] - 2024-01-16 14:45:47,512 : trigger_reload @0266: C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango\app_1\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 14:45:48,059 : run_with_reloader @0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 14:45:50,444 : log_message @0212: "GET /c/ HTTP/1.1" 200 106
+[INFO    :   django.utils.autoreload] - 2024-01-16 14:47:19,190 : trigger_reload @0266: C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango\app_1\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 14:47:19,718 : run_with_reloader @0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 14:47:22,156 : log_message @0212: "GET /c/ HTTP/1.1" 200 835
+[INFO    :   django.utils.autoreload] - 2024-01-16 17:45:05,276 : trigger_reload @0266: C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\FrameworkDjango\app_1\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 17:45:05,987 : run_with_reloader @0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 14:24:42,308 : run_with_reloader @0668: Watching for file changes with StatReloader
+[INFO    :               app_1.views] - 2024-01-17 14:24:44,576 : index @0038: index get request
+[INFO    :             django.server] - 2024-01-17 14:24:44,578 : log_message @0212: "GET / HTTP/1.1" 200 13
+[WARNING :            django.request] - 2024-01-17 14:24:44,973 : log_response @0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-17 14:24:44,974 : log_message @0212: "GET /favicon.ico HTTP/1.1" 404 3107
+[INFO    :             django.server] - 2024-01-17 14:25:13,032 : log_message @0212: "GET /authors/ HTTP/1.1" 200 579
+[INFO    :             django.server] - 2024-01-17 14:25:33,544 : log_message @0212: "GET /posts/ HTTP/1.1" 200 8126
+[INFO    :             django.server] - 2024-01-17 14:30:59,552 : log_message @0212: "GET /posts/ HTTP/1.1" 200 7316
