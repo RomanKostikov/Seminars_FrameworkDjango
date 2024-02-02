@@ -1,0 +1,22 @@
+{% extends 'app_1\base.html' %}
+
+{% block title %}
+
+Посты автора
+
+{% endblock %}
+{% block content %}
+<h1>Автор</h1>
+<p>{{ author }}</p>
+<h1>Посты</h1>
+<ul>
+    {% for post in posts %}
+    {% if post.is_published %}
+    <li><a href="{% url 'posts_view_sem_3' post_id=post.pk %}">{{ post }}</a></li>
+    {% else %}
+    <li>{{ post }}</li>
+    {% endif %}
+    {% endfor %}
+</ul>
+
+{% endblock %}

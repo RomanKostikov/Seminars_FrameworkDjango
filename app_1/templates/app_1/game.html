@@ -1,0 +1,9 @@
+{% extends 'app_1\base.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+<h1>В результате игры "{{title}}" получили: </h1>
+{% for i in result %}
+<p>{{ i }}</p>
+{% endfor %}
+{% endblock %}

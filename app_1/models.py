@@ -57,7 +57,7 @@ class Author(models.Model):
         return f'{self.name} {self.last_name}'
 
     def __str__(self):
-        return f'Author: {self.name} {self.last_name}, email: {self.email}'
+        return f'Author: {self.name} {self.last_name},birthday: {self.birthday}, email: {self.email}'
 
 
 # Задание №4
